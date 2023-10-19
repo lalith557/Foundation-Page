@@ -1,16 +1,51 @@
-.center {
-    text-align: center;
-    background-color: burlywood;
-    border-radius: 8px;
-    color: aliceblue;
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg_container {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/foundations-bg.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
 
-.button {
-    border-radius: 8px;
-    border: 0px;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    margin: 12px;
+.bottom_container {
+    background-color: #ffffff;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    padding: 26px;
 }
 
+.main_heading {
+    font-family: "Roboto";
+    color: #323f4b;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.para {
+    font-family: "Roboto";
+    color: #7b8794;
+    font-size: 16px;
+}
+
+.python_container {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cbd2d9;
+    width: 130px;
+    height: 100px;
+    border-radius: 12px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.image {
+    height: 32px;
+    margin: 16px;
+}
+
+.h1 {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: bold;
+    color: #323f4b;
+}
